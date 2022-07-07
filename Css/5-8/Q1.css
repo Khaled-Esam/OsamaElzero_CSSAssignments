@@ -1,0 +1,20 @@
+.assign-1-shape-1 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(138, 44, 226);
+  /* background-color: hsl(271, 76%, 53%); */
+  /* background-color: #8a2ce2; */
+}
+.assign-1-shape-2 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(138 44 226 /50%);
+}
+.assign-1-shape-3 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(138 44 226 /10%);
+}
