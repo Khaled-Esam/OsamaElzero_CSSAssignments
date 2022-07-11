@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+a {
+  display: inline-block;
+  background-color: #008079cf;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 40px 60px;
+  margin: 67px auto;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 40px;
+  border-bottom: 15px solid #00000069;
+}

@@ -1,0 +1,5 @@
+h1 {
+  text-shadow: 1.2px 1.2px 0 red, 2.4px 2.4px 0 #008cff, 3.6px 3.6px 0 #c000ff;
+  font-family: arial;
+  font-size: 35px;
+}
