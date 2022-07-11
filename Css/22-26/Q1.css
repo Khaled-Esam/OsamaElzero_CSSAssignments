@@ -1,0 +1,12 @@
+div {
+  padding: 15px;
+  border: 4px solid #ff6300;
+  font-size: 25px;
+  font-family: Arial;
+}
+div p {
+  background-color: #ddd;
+  padding: inherit;
+  text-align: center;
+  border: inherit;
+}
