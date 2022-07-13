@@ -1,0 +1,33 @@
+.parent {
+  background-color: #eee;
+  width: 800px;
+  text-align: center;
+  margin: 30px auto;
+}
+.clear {
+  clear: both;
+}
+.full,
+.third,
+.second,
+.fourth {
+  float: left;
+  background-color: #ccc;
+  padding: 10px 0;
+  margin: 15px 0 0 15px;
+}
+.full {
+  width: calc(100% - 30px);
+}
+.third {
+  width: calc((100% - 60px) / 3);
+}
+
+.second {
+  width: calc((100% - 45px) / 2);
+}
+
+.fourth {
+  width: calc((100% - 75px) / 4);
+  margin-bottom: 15px;
+}
