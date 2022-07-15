@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 3px solid #009688;
+}
+caption {
+  font-weight: bold;
+  margin: 20px;
+}
+thead {
+  background-color: #000000b5;
+  color: white;
+  text-align: center;
+}
+thead td {
+  padding: 10px;
+}
+span {
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+.view {
+  background-color: #009affcc;
+}
+.delete {
+  background-color: #ff005a;
+}
+table tbody td {
+  background-color: rgb(238 238 238 / 70%);
+}
+.image {
+  vertical-align: middle;
+}
