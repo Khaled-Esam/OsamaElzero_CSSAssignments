@@ -1,0 +1,33 @@
+body {
+  font-family: arial;
+}
+P {
+  position: relative;
+  background-color: #eee;
+  padding: 15px;
+  width: 500px;
+  margin: 20px auto;
+  counter-increment: members-count;
+}
+p::before {
+  content: counter(members-count);
+  position: absolute;
+  background-color: #f44336;
+  width: 50px;
+  height: 100%;
+  margin-top: -15px;
+  left: -50px;
+  color: white;
+  text-align: center;
+  line-height: 48.4px;
+  font-size: 24px;
+}
+p::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #f44336;
+  height: 100%;
+  margin-top: -15px;
+  right: -4px;
+}
