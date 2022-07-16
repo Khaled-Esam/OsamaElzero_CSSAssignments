@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  width: 550px;
+  height: 300px;
+  text-align: center;
+  font-family: Arial;
+  margin: auto;
+  position: relative;
+}
+.parent .free,
+.parent .paid {
+  float: left;
+  background-color: #eee;
+  width: calc(50% - 50px);
+  padding: 15px 0;
+  position: absolute;
+  height: 250px;
+}
+.parent .free {
+  top: 20px;
+  left: 15px;
+}
+.parent .paid {
+  top: 20px;
+  right: 15px;
+}
+.free div,
+.paid div {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 130px;
+  margin: 20px auto;
+  position: relative;
+  bottom: -18px;
+}
+.feat {
+  background-color: #03a9f4;
+  color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: 150px;
+  height: 24px;
+  line-height: 24px;
+  margin: auto;
+  font-size: 15px;
+  position: relative;
+  bottom: -15px;
+}
+.parent::before {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  background-color: #03a9f4;
+  height: 250px;
+  top: 20px;
+  left: 50%;
+  margin-left: -0.75px;
+}
+.parent::after {
+  content: "Or";
+  padding: 2px;
+  background-color: #03a9f4;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -10.89px;
+  top: 50%;
+  margin-top: -22.4px;
+}
