@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background-color: #eee;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+.parent div {
+  width: 100px;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  background-color: #ff9800;
+  order: 2;
+}
+.two {
+  background-color: #8bc34a;
+  order: 3;
+  align-self: flex-end;
+}
+.three {
+  order: 4;
+  background-color: #795548;
+}
+.four {
+  order: 1;
+  background-color: #673ab7;
+  align-self: flex-end;
+}

@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+:root {
+  --backColor: #ddd;
+  --mainPadding: 10px;
+  --mainMargin: 20px;
+}
+.page {
+  background-color: #eee;
+  padding: var(--mainPadding);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mainMargin);
+}
+.header .logo {
+  width: 10%;
+  padding: var(--mainPadding);
+  background-color: var(--backColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .links {
+  width: 88%;
+  padding: var(--mainPadding);
+  background-color: var(--backColor);
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  list-style: none;
+}
+.header .links li {
+  margin-right: 10px;
+}
+.main-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--mainMargin);
+}
+.main-area .content {
+  width: 65%;
+  background-color: var(--backColor);
+  height: 400px;
+  padding: var(--mainPadding);
+}
+.main-area .sidebar {
+  width: 33%;
+  background-color: var(--backColor);
+  height: 400px;
+  padding: var(--mainPadding);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--backColor);
+}
+.footer .design {
+  align-self: flex-end;
+  padding: var(--mainPadding);
+}
+.footer .copyright {
+  padding: var(--mainPadding);
+}
