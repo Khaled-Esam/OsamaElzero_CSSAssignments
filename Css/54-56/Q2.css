@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  margin: auto;
+  width: 600px;
+}
+div {
+  background-color: #eee;
+  position: relative;
+}
+div input {
+  background-color: #eee;
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px;
+  caret-color: red;
+  border: none;
+}
+div::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  bottom: -2px;
+  background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}
+input:focus {
+  outline: none;
+}
+
+/* Another Solution */
+p {
+  width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  caret-color: red;
+  margin: 10px auto;
+  padding: 15px;
+  caret-color: red;
+  background-color: #eee;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+  border-image-slice: 1;
+}
+
+/* Another Solution */
+.in {
+  background-color: #eee;
+  display: block;
+  width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  caret-color: red;
+  border: none;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+  border-image-slice: 1;
+}
