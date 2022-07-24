@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: arial;
+}
+.team-info {
+  background-color: #eee;
+  padding: 30px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(17, auto);
+  gap: 15px;
+}
+.team-info div {
+  padding-left: 20px;
+  padding-right: 15px;
+  position: relative;
+  line-height: 1.8;
+}
+.team-info div::before {
+  content: "″";
+  font-size: 76px;
+  color: #868d91;
+  position: absolute;
+  bottom: -61px;
+  right: 10px;
+}
+.team-info div::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 3px;
+  bottom: -3px;
+  background-color: #ff5722;
+}
+.team-info div h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.team-info div span {
+  color: #868d91;
+  font-weight: bold;
+}
+.team-info div h4 {
+  font-size: 18px;
+  margin-top: 12px;
+}
+.team-info div p {
+  font-size: 18px;
+}
+.one {
+  background-color: white;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 4;
+}
+.two {
+  background-color: white;
+  grid-row: 1 / span 4;
+}
+.three {
+  background-color: black;
+  color: white;
+  grid-area: 1 / 4 / span 14 / span 1;
+}
+.four {
+  background-color: white;
+  grid-area: 5 / 1 / span 10 / span 1;
+}
+.five {
+  background-color: black;
+  color: white;
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 5;
+}
+.six {
+  background-color: white;
+  grid-area: 10 / 2 / span 5 / span 2;
+}
+.seven {
+  background-color: white;
+  grid-row: 15 / span 3;
+}
+.eight {
+  background-color: black;
+  color: white;
+  grid-row: 15 / span 3;
+}
+.nine {
+  background-color: white;
+  grid-row: 15 / span 3;
+}
+.ten {
+  background-color: white;
+  grid-row: 15 / span 3;
+}

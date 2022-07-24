@@ -1,0 +1,52 @@
+body {
+  font-family: arial;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+.layout {
+  height: 100vh;
+  background-color: #eee;
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "head head head head head head head head head head"
+    "sec sec sec sec sec sec sec side side side"
+    "foot foot foot foot foot foot foot foot foot foot ";
+}
+header {
+  grid-area: head;
+  background-color: #03a9f4;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+header::before {
+  content: "Header";
+}
+section {
+  grid-area: sec;
+  background-color: #ff5722;
+  padding: 15px;
+}
+section::before {
+  content: "Section";
+}
+aside {
+  grid-area: side;
+  background-color: #607d8b;
+  padding: 15px;
+}
+aside::before {
+  content: "Aside";
+}
+footer {
+  grid-area: foot;
+  background-color: #009688;
+  padding: 15px;
+}
+footer::before {
+  content: "Footer";
+}
