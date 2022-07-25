@@ -1,0 +1,41 @@
+h1 {
+  width: 150px;
+  margin: 40px auto;
+  background-color: #009688;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  background-color: #009688;
+  left: -15px;
+  top: 0;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  z-index: -1;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 20px;
+  background-color: #009688;
+  left: -41px;
+  top: 0;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+}
