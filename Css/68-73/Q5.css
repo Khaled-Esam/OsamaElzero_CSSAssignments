@@ -39,7 +39,6 @@ div::before {
   display: flex;
   justify-content: center;
   align-items: center;
-
   backface-visibility: hidden;
 }
 div::after {
